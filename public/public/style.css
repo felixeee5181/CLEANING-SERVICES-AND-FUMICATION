@@ -1,0 +1,21 @@
+/* ...keep the base from earlier draft... */
+
+.hidden { display: none !important; }
+.muted { color: var(--muted); }
+.center { text-align: center; }
+.small { font-size: 13px; }
+
+.payment-box {
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+.payment-box legend { font-weight: 700; font-size: 14px; padding: 0 6px; }
+.payment-list { display: flex; flex-direction: column; gap: 10px; }
+.payment-option {
+  display: grid; grid-template-columns: auto 1fr; gap: 6px 12px;
+  align-items: start; padding: 12px; border: 1px solid var(--border);
+  border-radius: 10px; cursor: pointer;
+}
+.payment-option:hover { border-color: var(--primary); }
+.payment
