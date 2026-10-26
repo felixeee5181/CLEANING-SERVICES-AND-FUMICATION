@@ -18,4 +18,11 @@
   border-radius: 10px; cursor: pointer;
 }
 .payment-option:hover { border-color: var(--primary); }
-.payment
+.payment-option input { margin-top: 3px; }
+.payment-option .small { grid-column: 2; }
+
+.instructions {
+  background: var(--alt); padding: 16px; border-radius: 10px;
+  margin-bottom: 16px; border: 1px solid var(--border);
+}
+.instructions p { margin: 4px 0; font-size: 15px; }
